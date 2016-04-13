@@ -23,7 +23,34 @@
 		E19D947B1CB42C1F00862C3A /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19D947A1CB42C1F00862C3A /* AudioPlayer.swift */; };
 		E19D947D1CB450C100862C3A /* AutoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19D947C1CB450C100862C3A /* AutoViewController.swift */; };
 		E19D947F1CB450CC00862C3A /* RawViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19D947E1CB450CC00862C3A /* RawViewController.swift */; };
+		E1CC67911CBEC440002EF676 /* HoundifyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CC67901CBEC440002EF676 /* HoundifyService.swift */; };
+		E1CC67931CBEC713002EF676 /* NSNotificationCenterExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CC67921CBEC713002EF676 /* NSNotificationCenterExtension.swift */; };
+		E1CC67981CBED5BC002EF676 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1CC67941CBED438002EF676 /* ReactiveCocoa.framework */; };
+		E1CC67991CBED5BC002EF676 /* ReactiveCocoa.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E1CC67941CBED438002EF676 /* ReactiveCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E1CC679A1CBED5BC002EF676 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1CC67951CBED438002EF676 /* Result.framework */; };
+		E1CC679B1CBED5BC002EF676 /* Result.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E1CC67951CBED438002EF676 /* Result.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E1CC67A11CBEEEEB002EF676 /* CocoaLumberjackSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1CC67A01CBEEEEB002EF676 /* CocoaLumberjackSwift.framework */; };
+		E1CC67A21CBEEEEB002EF676 /* CocoaLumberjackSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E1CC67A01CBEEEEB002EF676 /* CocoaLumberjackSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E1CC67A41CBEEF30002EF676 /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1CC67A31CBEEF30002EF676 /* CocoaLumberjack.framework */; };
+		E1CC67A51CBEEF30002EF676 /* CocoaLumberjack.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E1CC67A31CBEEF30002EF676 /* CocoaLumberjack.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E1CC679C1CBED5BC002EF676 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E1CC67991CBED5BC002EF676 /* ReactiveCocoa.framework in Embed Frameworks */,
+				E1CC679B1CBED5BC002EF676 /* Result.framework in Embed Frameworks */,
+				E1CC67A51CBEEF30002EF676 /* CocoaLumberjack.framework in Embed Frameworks */,
+				E1CC67A21CBEEEEB002EF676 /* CocoaLumberjackSwift.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		E19D94411CB4038900862C3A /* HoundifyTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HoundifyTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -54,6 +81,12 @@
 		E19D947A1CB42C1F00862C3A /* AudioPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
 		E19D947C1CB450C100862C3A /* AutoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoViewController.swift; sourceTree = "<group>"; };
 		E19D947E1CB450CC00862C3A /* RawViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RawViewController.swift; sourceTree = "<group>"; };
+		E1CC67901CBEC440002EF676 /* HoundifyService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoundifyService.swift; sourceTree = "<group>"; };
+		E1CC67921CBEC713002EF676 /* NSNotificationCenterExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSNotificationCenterExtension.swift; sourceTree = "<group>"; };
+		E1CC67941CBED438002EF676 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = Frameworks/ReactiveCocoa.framework; sourceTree = "<group>"; };
+		E1CC67951CBED438002EF676 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Frameworks/Result.framework; sourceTree = "<group>"; };
+		E1CC67A01CBEEEEB002EF676 /* CocoaLumberjackSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaLumberjackSwift.framework; path = Frameworks/CocoaLumberjackSwift.framework; sourceTree = "<group>"; };
+		E1CC67A31CBEEF30002EF676 /* CocoaLumberjack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaLumberjack.framework; path = Frameworks/CocoaLumberjack.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,10 +96,14 @@
 			files = (
 				E19D946F1CB40C6100862C3A /* libz.tbd in Frameworks */,
 				E19D946D1CB40C5B00862C3A /* libc++.tbd in Frameworks */,
+				E1CC67A41CBEEF30002EF676 /* CocoaLumberjack.framework in Frameworks */,
 				E19D946B1CB40C4300862C3A /* Accelerate.framework in Frameworks */,
+				E1CC679A1CBED5BC002EF676 /* Result.framework in Frameworks */,
 				E19D94691CB40C3D00862C3A /* AudioToolbox.framework in Frameworks */,
+				E1CC67981CBED5BC002EF676 /* ReactiveCocoa.framework in Frameworks */,
 				E19D94671CB40C3700862C3A /* AVFoundation.framework in Frameworks */,
 				E19D94651CB40BAD00862C3A /* libHoundSDK.a in Frameworks */,
+				E1CC67A11CBEEEEB002EF676 /* CocoaLumberjackSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,8 +140,10 @@
 				E19D944D1CB4038900862C3A /* LaunchScreen.storyboard */,
 				E19D94741CB40F1700862C3A /* HoundifyTest-Bridging-Header.h */,
 				E19D94501CB4038900862C3A /* Info.plist */,
-				E19D947C1CB450C100862C3A /* AutoViewController.swift */,
 				E19D947E1CB450CC00862C3A /* RawViewController.swift */,
+				E19D947C1CB450C100862C3A /* AutoViewController.swift */,
+				E1CC67901CBEC440002EF676 /* HoundifyService.swift */,
+				E1CC67921CBEC713002EF676 /* NSNotificationCenterExtension.swift */,
 			);
 			path = HoundifyTest;
 			sourceTree = "<group>";
@@ -148,6 +187,10 @@
 			children = (
 				E19D946E1CB40C6100862C3A /* libz.tbd */,
 				E19D946C1CB40C5B00862C3A /* libc++.tbd */,
+				E1CC67A31CBEEF30002EF676 /* CocoaLumberjack.framework */,
+				E1CC67A01CBEEEEB002EF676 /* CocoaLumberjackSwift.framework */,
+				E1CC67941CBED438002EF676 /* ReactiveCocoa.framework */,
+				E1CC67951CBED438002EF676 /* Result.framework */,
 				E19D946A1CB40C4300862C3A /* Accelerate.framework */,
 				E19D94681CB40C3D00862C3A /* AudioToolbox.framework */,
 				E19D94661CB40C3700862C3A /* AVFoundation.framework */,
@@ -165,6 +208,7 @@
 				E19D943D1CB4038900862C3A /* Sources */,
 				E19D943E1CB4038900862C3A /* Frameworks */,
 				E19D943F1CB4038900862C3A /* Resources */,
+				E1CC679C1CBED5BC002EF676 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -228,7 +272,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E19D947D1CB450C100862C3A /* AutoViewController.swift in Sources */,
+				E1CC67911CBEC440002EF676 /* HoundifyService.swift in Sources */,
 				E19D94771CB4293600862C3A /* AudioRecorder.swift in Sources */,
+				E1CC67931CBEC713002EF676 /* NSNotificationCenterExtension.swift in Sources */,
 				E19D94471CB4038900862C3A /* ViewController.swift in Sources */,
 				E19D947F1CB450CC00862C3A /* RawViewController.swift in Sources */,
 				E19D94451CB4038900862C3A /* AppDelegate.swift in Sources */,
@@ -343,6 +389,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
 				HEADER_SEARCH_PATHS = "\"$(PROJECT_DIR)/HoundifyTest/HoundSDK/\"/**";
 				INFOPLIST_FILE = HoundifyTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -360,6 +410,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
 				HEADER_SEARCH_PATHS = "\"$(PROJECT_DIR)/HoundifyTest/HoundSDK/\"/**";
 				INFOPLIST_FILE = HoundifyTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
